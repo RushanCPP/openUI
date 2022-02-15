@@ -49,7 +49,7 @@ int main()
 	}
 
     std::cout << "Renderer: " << glGetString(GL_RENDERER) << std::endl;
-	std::cout << glGetString(GL_VERSION) << std::endl;
+	std::cout << "OpenGL: " << glGetString(GL_VERSION) << std::endl;
     
     /* Loop until the user closes the window */
     glClearColor(0, 1, 0, 1);
